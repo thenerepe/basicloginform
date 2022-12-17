@@ -22,8 +22,3 @@ This is my first login project, so I'm sorry if there are any missing or errors,
   
 
 [İnstagram](https://www.instagram.com/nuri.patoglu) & [Twitter](https://www.twitter.com/thenerepe)
-
-# 
-# Screenshot
-![Index Screenshot](https://www.hizliresim.com/ma2nqcw)
-
