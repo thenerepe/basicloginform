@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Login Form | by NRP</title>
+</head>
+
+<body>
+    <div class="form">
+        <h1>Create your account</h1>
+        <input type="email" name="" id="email" placeholder="Email address" />
+        <div class="captcha">
+            <div class="row1">
+                <input type="checkbox" name="recheck" id="re-check" required>
+                <p>I'm not a Robot</p>
+            </div>
+            <div class="row2">
+                <img src="img/captchalogo.png" alt="ReCaptcha" />
+            </div>
+        </div>
+        <input type="button" value="Continue" id="continue" onClick="login()" />
+        <div class="login">Already have an account? <a href="">Log in</a></div>
+        <div class="or">
+            <p>or</p>
+        </div>
+        <div class="google f-container">
+            <img src="img/googlelogo.png" class="f-logo" alt="Google Logo" />
+            <p>Continue with Google</p>
+        </div>
+        <div class="microsoft f-container">
+            <img src="img/microsoftlogo.png" class="f-logo" alt="Microsoft Logo" />
+            <p>Continue with Microsoft Account</p>
+        </div>
+    </div>
+    <div class="content">
+        <div class="row-1 row">
+            <img src="img/logo-w.png" alt="">
+        </div>
+        <div class="row-2 row">
+            <button>Get Info</button>
+            <button>Contact Us</button>
+        </div>
+        <div class="row-3 row">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+        </div>
+    </div> 
+    <script src="app.js"></script>
+    <script src="https://kit.fontawesome.com/63e7ca50b8.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
